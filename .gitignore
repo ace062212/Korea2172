@@ -1,0 +1,26 @@
+# R 관련
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# 데이터 파일
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 결과 파일
+results/models/*
+results/figures/*
+!results/models/.gitkeep
+!results/figures/.gitkeep
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
